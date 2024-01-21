@@ -1,9 +1,8 @@
 {
-    "name": "turborepo-skeleton",
+    "name": "turborepo-starter",
     "private": true,
-    "author": "M1",
     "prettier": {
-        "printWidth": 90,
+        "printWidth": 80,
         "tabWidth": 4,
         "arrowParens": "always",
         "trailingComma": "none",
@@ -14,12 +13,12 @@
     "scripts": {
         "build": "turbo build",
         "dev": "turbo dev",
-        "lint": "turbo lint; prettier --check . --ignore-path=.prettierignore",
-        "format": "prettier --write ."
+        "lint": "turbo lint; prettier . --check --ignore-path=.prettierignore",
+        "format": "prettier . --write"
     },
     "devDependencies": {
         "@repo/internals": "workspace:*",
-        "prettier": "^3.1.0",
+        "prettier": "^3.2.4",
         "turbo": "latest"
     },
     "packageManager": "pnpm@8.9.0",

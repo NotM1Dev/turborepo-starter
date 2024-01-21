@@ -18,7 +18,7 @@
         "format": "prettier --write ."
     },
     "devDependencies": {
-        "tsconfig": "workspace:*",
+        "@repo/internals": "workspace:*",
         "prettier": "^3.1.0",
         "turbo": "latest"
     },

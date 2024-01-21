@@ -1,5 +1,5 @@
 {
-    "name": "tsconfig",
+    "name": "@repo/internals",
     "version": "0.0.0",
     "private": true,
     "dependencies": {

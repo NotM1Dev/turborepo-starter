@@ -1,8 +1,5 @@
 {
     "name": "@repo/internals",
     "version": "0.0.0",
-    "private": true,
-    "dependencies": {
-        "@underctrl/tsconfig": "^0.0.1"
-    }
+    "private": true
 }

@@ -1,8 +1,0 @@
-{
-    "extends": "@underctrl/tsconfig/cjs.json",
-    "compilerOptions": {
-        "noEmit": true,
-        "strict": true,
-        "declaration": true
-    }
-}

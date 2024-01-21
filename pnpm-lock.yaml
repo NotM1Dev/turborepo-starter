@@ -12,7 +12,7 @@ importers:
         specifier: workspace:*
         version: link:packages/internals
       prettier:
-        specifier: ^3.1.0
+        specifier: ^3.2.4
         version: 3.2.4
       turbo:
         specifier: latest
@@ -52,11 +52,7 @@ importers:
         specifier: ^5
         version: 5.3.3
 
-  packages/internals:
-    dependencies:
-      '@underctrl/tsconfig':
-        specifier: ^0.0.1
-        version: 0.0.1
+  packages/internals: {}
 
 packages:
 
@@ -253,10 +249,6 @@ packages:
   /@types/scheduler@0.16.8:
     resolution: {integrity: sha512-WZLiwShhwLRmeV6zH+GkbOFT6Z6VklCItrDioxUnv+u4Ll+8vKeFySoFyK/0ctcRpOmwAicELfmys1sDc/Rw+A==}
     dev: true
-
-  /@underctrl/tsconfig@0.0.1:
-    resolution: {integrity: sha512-Do277d6KteSof18G/AkPCvi81YF2PYaFEREpo0Nx0Dmi0bqfZS4BM2ScP0cdge68/qSeY5ach6HS260uwFhLIQ==}
-    dev: false
 
   /ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}

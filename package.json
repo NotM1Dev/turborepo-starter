@@ -6,7 +6,7 @@
         "tabWidth": 4,
         "arrowParens": "always",
         "trailingComma": "none",
-        "jsxSingleQuote": true,
+        "jsxSingleQuote": false,
         "singleQuote": true,
         "semi": true
     },
